@@ -1,1 +1,18 @@
+Lab 3 – Scikit-learn Preprocessing and Model Evaluation
 
+Name: Dishi Shah
+ID: 202618051
+Dataset: Hotel Booking Demand Dataset
+
+Objective: Build and compare two preprocessing pipelines using StandardScaler and MinMaxScaler with Logistic Regression and Decision Tree models.
+
+Work Done
+* Handled missing values and removed data leakage columns.
+* Created two preprocessing pipelines.
+* Trained four model-pipeline combinations.
+* Evaluated models using Accuracy, Precision, Recall, and F1-score.
+* Compared results and checked for overfitting using train-test performance.
+* Plotted confusion matrices for the best models.
+
+Tools
+Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
