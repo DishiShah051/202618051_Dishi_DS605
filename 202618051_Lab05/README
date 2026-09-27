@@ -1,1 +1,23 @@
+This project implements Regression and Classification using the UCI Garment Employee Productivity dataset.
 
+Models
+Regression: Linear Regression to predict `actual_productivity`
+Classification: Logistic Regression to predict `MeetsTarget`
+Both models are implemented using: Scikit-learn and NumPy & Pandas from scratch
+
+Preprocessing
+* Missing-value handling
+* Categorical encoding
+* Feature scaling
+* Fixed train-test split for fair comparison
+
+Evaluation
+Regression:MAE, RMSE, R²
+Classification:Accuracy, Precision, Recall, F1-score
+Training and prediction time are also compared.
+
+Optimization
+The manual Logistic Regression implementation is optimized by experimenting with Learning rates and Convergence criteria
+
+Technologies
+Python • NumPy • Pandas • Scikit-learn • Jupyter Notebook
