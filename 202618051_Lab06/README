@@ -1,1 +1,50 @@
+Overview
+This assignment demonstrates the use of machine learning classification techniques on two different datasets: Asphalt Crack Classification and Email Spam Classification.
 
+Part A – Asphalt Crack Classification
+The objective is to classify asphalt images into Crack and Non-Crack categories.
+
+Steps
+* Image resizing and grayscale conversion
+* Extraction of intensity-based features
+* Canny edge detection for feature extraction
+* Creation of improved features using multiple Canny thresholds
+* Training and comparison of classification models
+
+Models
+* Logistic Regression
+* Random Forest
+* Support Vector Machine (SVM)
+
+Evaluation
+Models are evaluated using:
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Confusion Matrix
+* Training and prediction time
+
+Baseline and improved features are compared to study their effect on model performance.
+
+
+Part B – Email Spam Classification
+The objective is to classify emails as Spam or Not Spam using the `emails.csv` dataset.
+
+Steps
+* Dataset inspection
+* Missing-value and duplicate checking
+* Feature and target separation
+* Stratified train-test split
+* Model training and evaluation
+
+Models
+* Logistic Regression
+* Random Forest
+* Linear SVM
+
+Evaluation
+The models are compared using accuracy, precision, recall, F1 score, confusion matrices, classification reports, and execution time.
+
+Conclusion
+The assignment demonstrates the complete machine learning workflow, from preprocessing and feature extraction to model training, evaluation, comparison, and result generation for both image and email classification tasks.
