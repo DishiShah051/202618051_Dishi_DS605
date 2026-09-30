@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1 Score,Training Time (s),Prediction Time (s)
+Logistic Regression,0.982609,0.957792,0.983333,0.970395,18.974665,0.048991
+Random Forest,0.964251,0.933993,0.943333,0.93864,2.124834,0.067819
+SVM,0.96715,0.9375,0.95,0.943709,8.368658,0.529314
