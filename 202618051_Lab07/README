@@ -1,1 +1,28 @@
+DS605 Lab Assignment 7: Image Representation, PCA, Eigenfaces and Face Recognition
 
+Overview
+This project explores PCA and eigenfaces for dimensionality reduction, image reconstruction, and face recognition using the AT&T ORL Face Database. 
+PCA is implemented from scratch using NumPy linear-algebra operations.
+
+Dataset
+The ORL dataset contains 400 grayscale face images from 40 subjects, with 10 images per subject. Each image has dimensions of 112 × 92 pixels. 
+The dataset is divided into: Training set: 70% and Testing set: 30%.  Each subject is represented in both sets.
+
+Methodology
+•	Load grayscale images and convert them into numerical feature vectors.
+•	Calculate the mean face and center the training data.
+•	Implement PCA using covariance-based eigendecomposition and SVD.
+•	Analyze cumulative explained variance and select components preserving at least 90% variance.
+•	Visualize eigenfaces and reconstruct sample face images.
+•	Compare raw-pixel and PCA-based nearest-neighbor recognition using Euclidean distance.
+•	Train and evaluate KNN, Logistic Regression, and SVM classifiers using PCA features.
+•	Compare recognition accuracy, reconstruction quality, and storage requirements.
+
+Results
+The notebook generates explained-variance plots, eigenface visualizations, reconstructed face examples, recognition comparisons, and CSV files containing experimental 
+results.
+
+Conclusion
+This project demonstrates how PCA can reduce the dimensionality of face images while retaining important information. It compares covariance-based PCA with SVD and 
+evaluates similarity-based face recognition against traditional machine-learning classifiers. The experiments investigate the relationship between dimensionality, 
+storage efficiency, reconstruction quality, and recognition accuracy.
