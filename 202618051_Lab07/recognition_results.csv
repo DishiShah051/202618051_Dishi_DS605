@@ -1,0 +1,6 @@
+Method,Components,Accuracy,Accuracy (%)
+Raw-pixel nearest neighbor,10304,0.975,97.5
+PCA nearest neighbor,92,0.975,97.5
+KNN (k=1),92,0.975,97.5
+Logistic Regression,92,0.9916666666666667,99.17
+SVM (RBF),92,0.9833333333333333,98.33

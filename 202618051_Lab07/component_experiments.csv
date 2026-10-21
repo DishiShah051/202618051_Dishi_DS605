@@ -1,0 +1,4 @@
+Components,Variance Retained (%),NN Accuracy (%),SVM Accuracy (%)
+20,70.55,95.0,95.83
+40,80.04,97.5,97.5
+92,90.04,97.5,98.33
