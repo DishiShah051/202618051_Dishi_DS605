@@ -1,1 +1,71 @@
+Objective:Implement Decision Tree and Linear SVM classifiers from scratch, compare them with Scikit-learn, visualize decision boundaries, and explore 
+nonlinear SVM kernels.
 
+Project Overview
+This project explores two fundamental machine learning classification algorithms: Decision Trees and Support Vector Machines (SVMs).
+Both algorithms are implemented from scratch using NumPy to understand their underlying mathematical principles.
+Their performance is compared with Scikit-learn implementations, while nonlinear SVM kernels are explored using a synthetic dataset.
+The project concludes with a comprehensive performance evaluation using the original Banknote Authentication dataset.
+
+Features used:
+- Variance — Variance of the wavelet-transformed image.
+- Skewness — Skewness of the wavelet-transformed image.
+- Curtosis — Curtosis of the wavelet-transformed image.
+- Entropy — Entropy of the image.
+
+Target: Class label indicating authentic or forged banknotes.
+
+
+Objectives:
+- Implement Gini impurity and entropy for Decision Tree splitting.
+- Develop a recursive Decision Tree classifier from scratch.
+- Implement a soft-margin Linear SVM using hinge loss and gradient descent.
+- Visualize decision boundaries, tree structures, and SVM margins.
+- Investigate the effects of tree depth, SVM regularization, learning rate, and iterations.
+- Explore Linear, Polynomial, and RBF kernels on nonlinear data.
+- Compare models using classification metrics and execution times.
+
+
+Project Workflow
+Part A — Decision Tree from Scratch
+- Calculate Gini impurity and entropy.
+- Identify optimal feature-threshold splits.
+- Construct the tree recursively using stopping conditions.
+- Implement class prediction.
+- Visualize decision boundaries and learned tree structures.
+- Compare criteria and maximum-depth settings against Scikit-learn.
+
+Part B — Linear SVM from Scratch
+- Standardize features using training-set statistics.
+- Convert binary labels to −1 and +1.
+- Implement a soft-margin SVM using hinge loss and gradient descent.
+- Plot the separating hyperplane, margins, and margin-violating samples.
+- Investigate the effects of regularization parameter `C`, learning rate, and iterations.
+
+Part C — Nonlinear SVM Kernels
+- Generate a nonlinear dataset using `make_moons`.
+- Train SVM classifiers with Linear, Polynomial, and RBF kernels.
+- Visualize and compare their decision boundaries.
+- Analyze how nonlinear kernels capture complex patterns.
+
+Part D — Final Performance Comparison
+Train and evaluate the manual and Scikit-learn Decision Trees, manual and Scikit-learn Linear SVMs, and an RBF SVM using all four Banknote dataset features.
+
+
+Visualizations:
+The project includes:
+- Manual Decision Tree decision boundary.
+- Scikit-learn Decision Tree decision boundary.
+- Learned tree structure and split rules.
+- Manual Linear SVM separating hyperplane and margins.
+- Scikit-learn Linear SVM decision boundary.
+- Linear, Polynomial, and RBF kernel decision boundaries.
+- Model performance comparison.
+
+Key Learnings:
+- Decision Trees provide interpretable classification rules but can overfit when their complexity is not controlled.
+- SVMs rely on margin maximization and generally benefit from feature scaling.
+- Regularization influences the balance between training errors and model complexity.
+- Nonlinear kernels enable SVMs to learn curved decision boundaries.
+- From-scratch implementations help explain algorithmic behavior, while Scikit-learn provides optimized benchmark implementations.
+- Accuracy, precision, recall, F1-score, and execution time offer complementary perspectives on model performance.
